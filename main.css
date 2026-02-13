@@ -1,6 +1,13 @@
-h {
+@font-face {
+    font-family: 'Editorial Ultralight' ;
+    src: url(EditorialUltralight.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
     font-size: 300px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Editorial Ultralight';
     font-display: fallback;
 }
 
