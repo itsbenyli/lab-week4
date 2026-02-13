@@ -5,8 +5,16 @@
     font-style: normal;
 }
 
+html, body {
+    background-color: rgb(251, 235, 244);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Editorial Ultralight';
 }
 
