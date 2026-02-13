@@ -16,3 +16,15 @@ h1 {
   background-color: red; 
   border-radius: 50%;  
 }
+
+@keyframes myAnimation {
+  from {background-color: rgb(1, 85, 1);}
+  to {background-color: rgb(19, 3, 143);}
+}
+
+/* The element to apply the animation to */
+.background {
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
