@@ -33,6 +33,21 @@ h1 {
   to {background-color: rgb(252, 187, 237);}
 }
 
+.realcircle {
+  width: 300px;         
+  height: 300px;        
+  background-color: red; 
+  border-radius: 50%;  
+  animation: realcircle 4s infinite alternate,
+  realcircle 3s linear slide-in,
+  realcircle 3s ease-out 5s slide-out;
+}
+
+@keyframes realcircle {
+  from {background-color: red;}
+  to {background-color: rgb(250, 252, 187);}
+}
+
 div {
   width: 100px;
   height: 100px;
