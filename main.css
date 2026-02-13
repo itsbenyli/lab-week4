@@ -23,7 +23,9 @@ h1 {
   height: 300px;        
   background-color: red; 
   border-radius: 50%;  
-  animation: circle 4s infinite alternate;
+  animation: circle 4s infinite alternate,
+  circle 3s linear slide-in,
+  circle 3s ease-out 5s slide-out;
 }
 
 @keyframes circle {
