@@ -6,12 +6,6 @@
 }
 
 h1 {
-    font-size: 300px;
+    font-size: 50px;
     font-family: 'Editorial Ultralight';
-    font-display: fallback;
-}
-
-h1 {
-    font-size: 300px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
