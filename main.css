@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
     font-family: 'Editorial Ultralight' ;
     src: url(EditorialUltralight.otf) format('opentype');
@@ -10,9 +9,9 @@ h1 {
     font-size: 300px;
     font-family: 'Editorial Ultralight';
     font-display: fallback;
-=======
+}
+
 h1 {
     font-size: 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
->>>>>>> 87efea301db9003747f6e95da77b1aaf0e49d721
 }
